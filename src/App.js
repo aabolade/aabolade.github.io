@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 function App() {
   return (
 <div style={{height: '300px', position: 'relative'}}>
-    <Layout fixedHeader>
-        <Header title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>The Title</strong></span>}>
+    <Layout>
+        <Header className="header-color" title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>The Title</strong></span>}>
             <Navigation>
                 <Link to="/aboutMe">About Me</Link>
                 <Link to="/resume">Resume</Link>
