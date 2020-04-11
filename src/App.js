@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function App() {
   return (
-<div style={{height: '300px', position: 'relative'}}>
+<div>
     <Layout>
         <Header className="header-color" title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>The Title</strong></span>}>
             <Navigation>
