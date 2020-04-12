@@ -25,6 +25,11 @@ class LandingPage extends Component {
                                 <a href="https://github.com/aabolade" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-github-square" aria-hidden="true" />
                                 </a>
+
+                                {/* Twitter */}
+                                <a href="https://twitter.com/leke_os" target="_blank" rel="noopener noreferrer">
+                                    <i className="fa fa-twitter-square" aria-hidden="true" />
+                                </a>
                             </div>
                         </div>
                      </Cell>
