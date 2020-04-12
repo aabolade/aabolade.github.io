@@ -13,8 +13,13 @@
 }
 
 .avatar-img {
-    height: 250px;
     padding-top: 5em;
+}
+
+.avatar-img img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
 }
 
 .banner-text {
