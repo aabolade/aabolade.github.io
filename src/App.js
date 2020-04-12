@@ -11,19 +11,11 @@ function App() {
         <Header className="header-color" title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>The Title</strong></span>}>
             <Navigation>
                 <Link to="/aboutMe">About Me</Link>
-                <Link to="/resume">Resume</Link>
+                <a href={process.env.PUBLIC_URL + '/resumeCopy.pdf'}>Resume</a>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
-            <Navigation>
-                <Link to="/aboutMe">About Me</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-            </Navigation>
-        </Drawer>
         <Content>
           <div className="page-content" />
           <Main/>
