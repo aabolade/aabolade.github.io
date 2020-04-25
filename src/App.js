@@ -8,7 +8,7 @@ function App() {
   return (
 <div>
     <Layout>
-        <Header className="header-color" title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>The Title</strong></span>}>
+        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Leke Abolade</Link>} scroll>
             <Navigation>
                 <Link to="/aboutMe">About Me</Link>
                 <a href={process.env.PUBLIC_URL + '/resume.pdf'} target="_blank" rel="noopener noreferrer">Resume</a>
